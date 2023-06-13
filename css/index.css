@@ -1,0 +1,223 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+.leaf-freshi
+{
+    height: 50px;
+}
+.menu
+{
+    background: rgb(250, 193, 79); 
+    height: 87vh;
+    display: grid;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 2000;
+    font-size: 8vw;
+    color: white;
+}
+.menu input
+{
+    height: 5vh;
+}
+.menu-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 500px;
+    overflow: hidden;
+}
+.menu-title img
+{
+    position: absolute;
+    top: 100px;
+    margin-left: 20px;
+    height: 70%;
+}
+.inscribete
+{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 80vw);
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100px;
+
+    font-size: 30px;
+}
+.inscribete h6
+{
+    font-size: 3vh;
+    text-align: center;
+    color: black;
+    width: 80vw;
+}
+.inscribete-form
+{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inscribete-input
+{
+    min-width: 60vw;
+    border-style: none;
+    border-radius: 10px 0px 0px 10px;
+}
+.inscribete-btn
+{
+    height: 10px;
+    width: 10vwpx;
+    background: darkcyan;
+    border-style: none;
+    border-radius: 0px 10px 10px 0px;
+}
+.foot
+{
+    position: relative;
+    bottom: -50px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 100px);
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 10px;
+    color: rgb(133, 133, 133);
+}
+.foot-item
+{
+    width: 100px;
+    text-align: center;
+}
+.novedades-title
+{
+    margin-top: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.novedades-title a
+{
+    text-decoration: none;
+    color: black;
+}
+.novedades-grid
+{
+    background: rgb(255, 255, 255); 
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 220px);
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 2000;
+    font-size: 8vw;
+    color: rgb(0, 0, 0);
+}
+.card
+{
+    height: 300px;
+    background: rgb(211, 211, 211);
+    margin-top: 60px;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px 10px 10px;
+}
+.card-price
+{
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 200px;
+    bottom: -55px;
+}
+.card img
+{
+    height: 200px;
+}
+.supermercado
+{
+    margin-top: 50px;
+    height: 500px;
+    background-image: url(imagenes/supermercado.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.supermercado div
+{
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+.supermercado-content
+{
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    display: grid;
+    justify-items: start;
+
+    
+}
+.supermercado-content h3
+{
+    letter-spacing: 1px;
+}
+.supermercado-content input
+{
+    background: rgba(133, 133, 133, 0.487);
+    border: 1px solid white;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.supermercado-section div
+{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 200px);
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.supermercado-section div p
+{
+    margin-top: 20px;
+}
+
+
+
+
