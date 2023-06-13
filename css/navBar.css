@@ -14,7 +14,7 @@
     justify-content: space-around;
     align-items: center;
     z-index: 110;
-    background: rgb(250, 193, 79); 
+    background: rgb(15, 248, 209); 
     
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
@@ -121,7 +121,7 @@ body::-webkit-scrollbar
         top: 7vh;
         right: 0px;
         height: 93vh;
-        background: rgb(250, 193, 79); 
+        background: rgb(15, 248, 209); 
         display: flex;
         flex-direction: column;
         align-items: center;
